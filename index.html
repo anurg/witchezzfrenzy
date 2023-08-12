@@ -7,9 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+
+      .bg {
+        /* The image used */
+        background-image: url("images/witchezzfrenzy.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bh {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
+      }
+    </style>
   </head>
   <body>
-    <h2>A Witch is coming soon to WitchezzFrenzy</h2>
-    <img src="images/witchezzfrenzy.jpg" alt="witch" />
+    <!-- <h2>A Witch is coming soon to WitchezzFrenzy</h2> -->
+    <img src="images/witchezzfrenzy.jpg" alt="witch" class="bh" />
+    <!-- <div class="bh"></div> -->
   </body>
 </html>
