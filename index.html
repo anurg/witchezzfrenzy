@@ -1,24 +1,327 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>WitchezzFrenzy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="shortcut icon"
+      href="assets/witch logo-02.jpg"
+      type="image/jpg"
     />
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <!-- JavaScript file -->
+    <script defer src="script.js"></script>
+    <title>Witchezz Frenzy</title>
   </head>
   <body>
-    <img
-      src="images/witchezzfrenzy_wide.jpeg"
-      alt="witch"
-      class="responsive-img"
-    />
+    <div class="loader-wrapper">
+      <!-- <video
+        autoplay
+        loop
+        muted
+        playsinline
+        poster="assets/witchezzfrenzy-logo.mp4"
+        class="loader"
+        preload="auto"
+      >
+        <source src="assets/witchezzfrenzy-logo.mp4" type="video/mp4" />
+      </video> -->
+
+      <img
+        src="assets/witchezzfrenzy-logo.gif"
+        alt="witchezz frenzy Logo"
+        class="loader"
+      />
+    </div>
+
+    <div class="content">
+      <aside class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">Our Story</a></li>
+          <li><a class="nav-link" href="#mint-info">Minting Info</a></li>
+          <li><a class="nav-link" href="#team">Artist</a></li>
+          <button class="btn">
+            <a
+              target="_blank"
+              class="btn-link"
+              href="https://twitter.com/WitchezzFrenzy"
+              >FOLLOW ON X</a
+            >
+          </button>
+        </ul>
+      </aside>
+
+      <nav class="nav">
+        <div class="logo-box">
+          <img
+            src="assets/witch logo-02.jpg"
+            alt="Witchezz Frenzy Logo"
+            class="logo"
+          />
+        </div>
+
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">Our Story</a></li>
+          <li><a class="nav-link" href="#mint-info">Minting Info</a></li>
+          <li><a class="nav-link" href="#team">Artist</a></li>
+          <button class="btn">
+            <a
+              target="_blank"
+              class="btn-link"
+              href="https://twitter.com/WitchezzFrenzy"
+              >FOLLOW ON X</a
+            >
+          </button>
+        </ul>
+        <button class="mobile-nav-btn">
+          <i class="open-close-icon fa-solid fa-bars"></i>
+          <!-- <i class="close fa-solid fa-x"></i> -->
+        </button>
+      </nav>
+
+      <audio id="music">
+        <source src="assets/WF audio.mp3" type="audio/mp3" />
+      </audio>
+      <header>
+        <div class="social-container">
+          <!-- <a target="_blank" href="https://twitter.com/WitchezzFrenzy"
+            ><i class="play fa-solid fa-play s-icon"></i></a> -->
+
+          <i id="play-pause-btn" class="pause s-icon fa-solid fa-play"></i>
+          <a target="_blank" href="https://twitter.com/WitchezzFrenzy"
+            ><i class="s-icon fa-brands fa-x-twitter"></i
+          ></a>
+          <a target="_blank" href="https://t.me/+U8sKWysttDc5Nzc9"
+            ><i class="s-icon fa-brands fa-telegram"></i
+          ></a>
+          <a target="_blank" href="https://twitter.com/WitchezzFrenzy"
+            ><i class="s-icon fa-solid fa-droplet"></i
+          ></a>
+          <a target="_blank" href="https://medium.com/@witchezzfrenzy"
+            ><i class="s-icon fa-brands fa-medium"></i
+          ></a>
+        </div>
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          poster="assets/3 8.mp4"
+          class="background-video margin-top-m"
+        >
+          <source src="assets/3 8.mp4" type="video/mp4" />
+        </video>
+      </header>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- About -->
+      <article id="about">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          poster="assets/comp1_.mp4"
+          class="background-video"
+        >
+          <source src="assets/comp1_.mp4" type="video/mp4" />
+        </video>
+        <div class="about-text-box">
+          <h1 class="heading">Witchezz Frenzy</h1>
+          <div class="accordion">
+            <div class="question-box">
+              <h2>Who are witchezz Frenzy?</h2>
+              <i class="fa-solid fa-plus icon"></i>
+            </div>
+            <div class="answer-box">
+              <p>
+                Witchezz Frenzy are a collection of 5,000 unique NFTs coming
+                soon to explore the world of web 3. They are basically digital
+                artworks of the vivid creepy moods of witches here to be taken
+                by you.
+              </p>
+              <a href="#detail" class="block-border-animation"
+                ><span>Learn More</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section id="detail" class="section-details">
+        <div class="detail-wrapper">
+          <h2 class="heading-primary">Their Story</h2>
+          <p class="detail-description">
+            There is a small town amidst the valley of beautiful blue mountains
+            called ‘Casper’. The town has been home to several beautiful women
+            and thrifty wives. Everything seemed perfect and like a paradise in
+            this town for many years. But suddenly once a comet passed over the
+            crystal blue skies of Casper town, call it a myth or superstition,
+            since then the women of the town faced an adversity. An ominous man
+            once passed the stream of this town dropped a poisonous potion into
+            its water. When the people of this town drank the infected water, it
+            caused several kids to choke and die instantly, women saw changes to
+            their appearance from their untouched angelic beauty turning them
+            into a frenzy of witches making their husbands and men leave their
+            wives and women of town to their own fate. This left the women of
+            Casper now turned into witches, wounded but it in no way broke their
+            spirit. They gathered together and strengthened their willpower
+            turning the small town of Casper into a cosmopolitan of
+            opportunities and hope. Now, it’s this frenzy of witches that run
+            the whole town of Casper once runned by men. These witches are
+            anything you can imagine and become. From a pilot to a sailor to a
+            soldier to a cowboy to a captain to a doctor or teacher etc. They
+            are strong-willed witches that are independent and capable of doing
+            anything. They are an enduring spirit of community unaffected by
+            their appearance and people’s judgement, moving forward with the
+            progress of town Casper with an unwavering will that binds them
+            together so called as, “Witchezz Frenzy”.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div id="carousel-container">
+          <div id="image-carousel">
+            <img
+              class="carousel-image"
+              src="assets/angry - cowboy hat (violet).jpg"
+              alt="Angry cowoy hat"
+            />
+            <img
+              class="carousel-image"
+              src="assets/balloon - viking helmet (brown).jpg"
+              alt="Image 2"
+            />
+            <img
+              class="carousel-image"
+              src="assets/cigar - top hat (green).jpg"
+              alt="Image 3"
+            />
+            <img
+              class="carousel-image"
+              src="assets/cloudy eyes candy - spider hat (nude).jpg"
+              alt="Image 4"
+            />
+            <img
+              class="carousel-image"
+              src="assets/ethereum - captain hat (grey).jpg"
+              alt="Image 5"
+            />
+
+            <!-- --------- -->
+
+            <img
+              class="carousel-image"
+              src="assets/angry - cowboy hat (violet).jpg"
+              alt="Angry cowoy hat"
+            />
+            <img
+              class="carousel-image"
+              src="assets/balloon - viking helmet (brown).jpg"
+              alt="Image 2"
+            />
+            <img
+              class="carousel-image"
+              src="assets/cigar - top hat (green).jpg"
+              alt="Image 3"
+            />
+            <img
+              class="carousel-image"
+              src="assets/cloudy eyes candy - spider hat (nude).jpg"
+              alt="Image 4"
+            />
+            <img
+              class="carousel-image"
+              src="assets/ethereum - captain hat (grey).jpg"
+              alt="Image 5"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-mint-info" id="mint-info">
+        <h2 class="heading-primary">Minting Soon</h2>
+        <div class="boxes">
+          <div class="box1">
+            <h4>Launch Platform & Network</h4>
+          </div>
+          <div class="box2">
+            <h4>Price / Date of Launch / Time</h4>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="section-team" id="team">
+        <h2 class="heading-primary">Artist</h2>
+        <div class="teams">
+          <!-- <div class="team">
+            <img
+              src="assets/ethereum - captain hat (grey).jpg"
+              alt="Technical Partner -Anu pic"
+            />
+            <div class="team-name">Technical Partner <span>- Anu</span></div>
+          </div> -->
+          <div class="team">
+            <img
+              src="assets/cigar - top hat (green).jpg"
+              alt="Artist -Anku pic"
+            />
+            <div class="team-name"><span>- Anku</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-subscription">
+        <div id="subscriptionForm">
+          <h3>Subscribe to Our Email Newsletter</h3>
+          <!-- <form id="emailForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="button" id="subscribeButton" onclick="subscribe()">Subscribe</button>
+        </form> -->
+          <button class="btn subscribe-btn">
+            <a class="btn-link" href="mailto:witchezzfrenzy@gmail.com"
+              >Click Here</a
+            >
+          </button>
+        </div>
+        <div class="buttons">
+          <button class="block-border-animation oncyber-btn">
+            <a class="btn-link" href="#">onCyber</a>
+          </button>
+          <button class="block-border-animation nft-calendar-btn">
+            <a class="btn-link" href="#">NFT Calendar</a>
+          </button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

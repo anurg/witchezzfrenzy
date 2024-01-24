@@ -1,0 +1,184 @@
+@media only screen and (max-width: 60em) {
+  .nav-list {
+    gap: 3rem;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  html {
+    font-size: 50.5%;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  /* .mobile-nav-btn .open {
+    display: block;
+  } */
+
+  .open-close-icon {
+    display: block;
+  }
+
+  .mobile-nav.active {
+    top: 0;
+  }
+
+  .about-text-box {
+    padding: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+
+  .detail-wrapper {
+    padding: 3rem;
+  }
+
+  .teams {
+    padding: 0 4rem;
+    gap: 4rem;
+    width: 90%;
+  }
+}
+
+/* 540px */
+@media (max-width: 33.75em) {
+  header {
+    height: 60vh;
+  }
+
+  article {
+    min-height: 70vh;
+  }
+
+  /* ////// */
+
+  .teams {
+    padding: 0 3rem;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .team {
+    width: 30rem;
+  }
+
+  .team > img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  .team-name {
+    height: 12rem;
+    padding: 2rem;
+  }
+
+  .section-subscription {
+    gap: 3rem;
+    padding-bottom: 8rem;
+    padding: 1rem;
+  }
+
+  #subscriptionForm {
+    gap: 5rem;
+    padding: 3rem 2rem;
+    min-width: 80%;
+    text-align: center;
+  }
+}
+
+/* px 475*/
+@media (max-width: 29.6875em) {
+  .heading {
+    font-size: 3rem;
+  }
+  .about-text-box {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .section-details {
+    padding: 4rem 0;
+  }
+
+  #image-carousel {
+    animation: scrollAnimation 10s linear infinite; /* Adjust the duration based on your preference */
+  }
+
+  .carousel-image {
+    width: calc(33.3333333333% - 20px);
+  }
+
+  .logo-box {
+    width: 50%;
+  }
+
+  .nav-list {
+    width: 50%;
+  }
+
+  .logo-box > .logo {
+    width: 40%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-content: stretch;
+    gap: 2rem;
+    align-self: stretch;
+    padding: 1rem;
+  }
+
+  .oncyber-btn,
+  .nft-calendar-btn {
+    width: 100%;
+  }
+
+  .section-mint-info {
+    padding: 4rem 2rem;
+  }
+
+  .boxes {
+    max-width: 120rem;
+
+    flex-direction: column;
+    gap: 3.6rem;
+  }
+  .box1,
+  .box2 {
+    width: 95%;
+    height: 30rem;
+    padding: 2.4rem;
+  }
+  .boxes h4 {
+    font-size: 2.4rem;
+  }
+}
+
+/* px 330*/
+@media (max-width: 23em) {
+  .carousel-image {
+    width: calc(50% - 20px);
+  }
+
+  .about-text-box {
+    padding: 1rem;
+  }
+
+  .social-container {
+    padding: 2rem 3rem;
+
+    gap: 3rem;
+  }
+
+  .s-icon {
+    font-size: 2.2rem;
+  }
+}
+
+/* px 270*/
