@@ -610,7 +610,9 @@ article {
   text-align: left;
   font-size: 1.4rem;
 }
-
+.gallery {
+  background-color: var(--color-black);
+}
 /* =========================== */
 /* ANIMATIONS */
 /* =========================== */
