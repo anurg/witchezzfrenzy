@@ -616,7 +616,9 @@ article {
 /* =========================== */
 /* ANIMATIONS */
 /* =========================== */
-
+h4 {
+  margin-bottom: 10px;
+}
 .block-border-animation {
   display: block;
   width: fit-content;
