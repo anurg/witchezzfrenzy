@@ -348,6 +348,14 @@ article {
   max-width: 80rem;
 }
 
+.heading-primary1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 .heading-primary {
   color: #fff;
   font-size: 4.8rem;
